@@ -8,13 +8,13 @@
    transition: all 0.4s ease-in-out;
 }
 .view-first h2 {
-   transform: translateY(-100px);
+   transform: translateY(-7.8vw);
    filter: alpha(opacity=0);
    opacity: 0;
    transition: all 0.2s ease-in-out;
 }
 .view-first p {
-   transform: translateY(100px);
+   transform: translateY(7.8vw);
    filter: alpha(opacity=0);
    opacity: 0;
    transition: all 0.2s linear;
@@ -49,8 +49,8 @@
 
 /*common */
 .view {
-   width: 520px;
-   height: 390px;
+   width: 27vw;
+   height: 20.3vw;
    margin: 10px;
    border: 10px solid #fff;
    overflow: hidden;
@@ -61,8 +61,8 @@
   // max-width: 25%;
 }
 .view .mask{
-   width: 520px;
-   height: 390px;
+   width: 27vw;
+   height: 20.3vw;
    position: absolute;
    overflow: hidden;
    top: 0;
@@ -72,20 +72,22 @@
 .view img {
    display: block;
    position: relative;
+   width:100%;
+   height: auto;
 }
 .view h2 {
    text-transform: uppercase;
    color: #fff;
    text-align: center;
    position: relative;
-   font-size: 120%;
+   font-size: 1.2vw;
    padding: 3%;
    background: rgba(0, 0, 0, 0.8);
    margin: 10% 0 0 0;
 }
 .view p {
    font-family: Georgia, serif;
-   font-size: 130%;
+   font-size: 0.9vw;
    position: relative;
    color: #fff;
    padding: 10px 20px 20px;
